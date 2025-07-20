@@ -36,7 +36,7 @@ class SiteMapper:
         links = soup.find_all('a', href=True)
 
         for link in links:
-            href = link['href'].split('#')[0]  # remove fragment
+            href = link['href'].split('#')[0]
             next_url = urljoin(url, href)
             if self.is_internal_link(next_url):
                 self.crawl(next_url)
@@ -45,6 +45,3 @@ class SiteMapper:
 
     def get_sitemap(self):
         return self.sitemap
-
-
-# Example usage:
