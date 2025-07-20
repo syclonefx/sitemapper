@@ -1,6 +1,19 @@
 # SiteMapper
 
-A Python script to crawl a website and build a site map for it. 
+A Python-based site crawl a website that builds a site map for the site. A sitemap.xml file is exported to the current working directory.
+
+## Requirements
+- Python 3.8+
+- BeautifulSoup4 - [https://pypi.org/project/beautifulsoup4/](https://pypi.org/project/beautifulsoup4/)
+`https://pypi.org/project/beautifulsoup4/`
+- requests - [https://pypi.org/project/requests/](https://pypi.org/project/requests/)
+`pip install requests`
+
+**Install the required requirements**
+`pip install -r requirements.txt`
+
+**Run sitemapper**
+`python main.py`
 
 ### Project Structure
 sitemapper/   
