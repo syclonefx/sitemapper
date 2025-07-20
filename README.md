@@ -1,6 +1,6 @@
 # SiteMapper
 
-A Python-based site crawl a website that builds a site map for the site. A sitemap.xml file is exported to the current working directory.
+A Python-based site crawler that generates a sitemap of internal links. A sitemap.xml file is exported to the current working directory.
 
 ## Requirements
 - Python 3.8+
